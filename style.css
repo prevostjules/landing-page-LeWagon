@@ -1,0 +1,105 @@
+/* Fonts and colors */
+
+html {
+  height: 100%;
+}
+
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  letter-spacing: 0.2px;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 8.5px;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/* Custom design */
+
+#header {
+  background-image: url("images/banner_rounded.jpg");
+  background-size: cover;
+  background-position: 0 -83;
+  padding: 130px 0;
+  text-align: center;
+  color: #D4F5F5;
+  line-height: 5.5em;
+}
+
+#header p {
+  font-weight: 400;
+  font-size: 35px;
+  opacity: 90%;
+}
+
+
+.example {
+  max-height: 120px;
+}
+
+
+#round {
+  border-radius: 50%;
+}
+
+#shadow {
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #747474;
+}
+
+.row {
+  margin-top: 2em;
+}
+
+.box {
+  padding: 1em;
+  text-align: center;
+}
+
+#feedback {
+  margin-bottom: 2.5em;
+  box-shadow: 1px 3px 5px #315659;
+}
+
+#footer {
+  background-color: black;
+  color: 5BC0BE;
+  padding: 10px;
+  bottom: 0!important;
+  left: 0;
+  right: 0;
+  position: relative;
+}
+
+#footer a {
+  font-size: 23px;
+  color: 5BC0BE;
+}
+
+#footer a:hover {
+color:#747578;
+}
